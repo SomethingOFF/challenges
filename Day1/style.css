@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: #e6e6e6;
+}
+
+.app {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+}
+
+.item {
+  padding: 4rem;
+}
+.input {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+textarea {
+  padding: 0.5rem;
+  height: 250px;
+  width: 80%;
+  font-size: 1rem;
+  font-family: cursive;
+  border-radius: 0.5rem;
+}
+
+#ans {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
