@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.master-view {
+  flex: 1;
+}
+
+.detail-view {
+  flex: 2;
+  margin-left: 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+#people-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#people-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#people-list li:hover {
+  background-color: #f0f0f0;
+}
